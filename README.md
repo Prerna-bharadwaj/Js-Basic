@@ -7,7 +7,7 @@ function displayCurrentDayAndTime() {
     const hours = now.getHours();
     const minutes = now.getMinutes();
     const seconds = now.getSeconds();
-
+    
     // Format hours for 12-hour clock and determine AM/PM
     const formattedHours = hours % 12 || 12; // Convert to 12-hour format
     const period = hours < 12 ? "AM" : "PM";
